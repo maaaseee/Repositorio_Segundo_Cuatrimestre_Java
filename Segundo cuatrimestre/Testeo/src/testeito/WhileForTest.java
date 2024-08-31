@@ -2,7 +2,7 @@ package testeito;
 
 
 
-public class WhileTest {
+public class WhileForTest {
 
     public static void main(String[] args) {
                 
