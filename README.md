@@ -1,4 +1,4 @@
-<h1 align="center"> Repositorio Segundo Cuatrimestre Programación II</h1>
+<h1 align="center"> Repositorio Programación II</h1>
 
 ---
 
@@ -15,7 +15,7 @@
 <h2>📚 Contenidos</h2>
 
 
-- **POO**
+- **POO** <<<< You are here!
 - **UML**
 - Arrays
 - Clases abstractas
