@@ -2,7 +2,7 @@
 
 ---
 
-<h2>🔧 Lenguaje utilizado</h2>
+<h2>🔧 Lenguaje/s o herramienta/s utilizado/s</h2>
 
 <p>
   <a href="https://skillicons.dev">
