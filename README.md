@@ -27,6 +27,6 @@
 - **Git**
 - **JavaFX**
 
-<h2>📖 Ejercicios</h2>
+<h2>📖 Referencias o ejercicios</h2>
 
 <a href="https://exercism.org/tracks/java">Exercism.org</a>
