@@ -25,8 +25,9 @@
 - Genéricos
 - Archivos
 - **Git**
-- **JavaFX**
+- Framework **JavaFX**
 
 <h2>📖 Referencias o ejercicios</h2>
 
 <a href="https://exercism.org/tracks/java">Exercism.org</a>
+Guías de ejercicios de la facultad
