@@ -20,7 +20,7 @@ public class Libro {
     }
     
     public void pasarPagina(){
-        if (this.paginaActual < numeroDePaginas){
+        if (this.paginaActual < this.numeroDePaginas){
             this.paginaActual++;
         }
         else {
@@ -38,7 +38,7 @@ public class Libro {
     }
     
     public void finalizado(){
-        if (this.paginaActual == numeroDePaginas) {
+        if (this.paginaActual == this.numeroDePaginas) {
             System.out.println("Has finalizado el libro.");
         }
     }

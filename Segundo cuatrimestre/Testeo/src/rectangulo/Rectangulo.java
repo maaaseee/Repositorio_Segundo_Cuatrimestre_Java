@@ -10,15 +10,18 @@ public class Rectangulo {
         this.ancho = ancho;
     }
     
-    public double calcularArea(){
-        return alto * ancho;
+    public void calcularArea(){
+        double area = this.alto * this.ancho;
+        System.out.println("El area del rectángulo es igual a: " + area);
     }
     
-    public double calcularPerimetro(){
-        return (alto * 2) + (ancho * 2);
+    public void calcularPerimetro(){
+        double perimetro = (this.alto * 2) + (this.ancho * 2);
+        System.out.println("El perímetro del rectángulo es igual a: " 
+                + perimetro);
     }
     
     public boolean esCuadrado(){
-        return alto == ancho;
+        return this.alto == this.ancho;
     }
 }

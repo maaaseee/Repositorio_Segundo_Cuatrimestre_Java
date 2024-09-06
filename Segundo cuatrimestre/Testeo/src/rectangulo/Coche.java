@@ -17,13 +17,13 @@ public class Coche {
         this.combustibleRestante = combustibleRestante;
     }
     
-    public double calcularKilometros() {
-        if (combustibleRestante > 0){
-            return combustibleRestante * KM_POR_LT;
+    public void calcularKilometros() {
+        if (this.combustibleRestante > 0){
+            double kilometrosCalc = combustibleRestante * KM_POR_LT;
+            System.out.println("Se pueden recorrer: " + kilometrosCalc + "km");
         }
         else {
             System.out.println("No hay combustible");
-            return 0;
         }
     }
     
@@ -39,7 +39,7 @@ public class Coche {
         } 
         else{
             this.combustibleRestante += cantidadDeNafta;
-            System.out.println("Se recargo el combustible.");
+            System.out.println("Se recargó el combustible.");
         }
     }
     
