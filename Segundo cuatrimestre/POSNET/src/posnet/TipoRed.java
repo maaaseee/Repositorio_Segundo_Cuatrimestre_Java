@@ -1,6 +1,6 @@
 package POSNET;
 
 public enum TipoRed {
-    VISA,
-    MASTERCARD
+    Visa,
+    Mastercard
 }

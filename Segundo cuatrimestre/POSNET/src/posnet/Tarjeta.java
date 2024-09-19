@@ -8,12 +8,12 @@ public class Tarjeta {
     private Titular dueño;
 
     public Tarjeta(TipoRed tipo, String entidad, String numTarjeta, double saldoRestante, 
-            String dni, String nombre, String apellido, String nroTel, String mail) {
+            Titular dueño) {
         this.tipoRed = tipo;
         this.entidad = entidad;
         this.numTarjeta = numTarjeta;
         this.saldoRestante = saldoRestante;
-        this.dueño = new Titular(dni, nombre, apellido, nroTel, mail);
+        this.dueño = dueño;
     }
 
     @Override
@@ -23,15 +23,17 @@ public class Tarjeta {
                 saldoRestante + ", due\u00f1o=" + dueño + '}';
     }
     
-    public double getSaldo(){
-        return this.saldoRestante;
+    public boolean puedoPagar(double monto){
+        return this.saldoRestante >= monto;
     }
     
-    public void cobrarPago(double cobro){
-        this.saldoRestante = this.saldoRestante - cobro;
+    public void debitar(double monto){
+        if(puedoPagar(monto)){
+            this.saldoRestante -= monto;
+        }
     }
     
     public String getTitular(){
-        return this.dueño.getNombreTitular();
+        return this.dueño.getNombreCompletoTitular();
     }
 }

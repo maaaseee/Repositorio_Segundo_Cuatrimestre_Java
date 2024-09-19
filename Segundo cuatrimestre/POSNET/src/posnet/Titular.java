@@ -15,7 +15,7 @@ public class Titular {
         this.mail = mail;
     }
     
-    public String getNombreTitular(){
+    public String getNombreCompletoTitular(){
         return (this.nombre + " " + this.apellido);
     }
 }

@@ -3,18 +3,18 @@ package POSNET;
 public class Ticket {
     private String nombreCliente;
     private double montoTotal;
-    private double montoCuota;
+    private int cuotas;
 
-    public Ticket(String nombreCliente, double montoTotal, double montoCuota) {
+    public Ticket(String nombreCliente, double montoTotal, int cuotas) {
         this.nombreCliente = nombreCliente;
         this.montoTotal = montoTotal;
-        this.montoCuota = montoCuota;
+        this.cuotas = cuotas;
     }
 
     @Override
     public String toString() {
-        return "Ticket{" + "nombreCliente=" + nombreCliente + 
-                String.format(", montoTotal=%.2f, montoCuota=%.2f}", montoTotal, montoCuota);
+        return "Ticket\nNombre del cliente = " + nombreCliente + 
+                String.format(", Monto total = $%.2f, Monto de c/cuota = $%.2f", montoTotal, (montoTotal / cuotas));
     }
     
 }
