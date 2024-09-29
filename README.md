@@ -16,18 +16,18 @@
 
 
 - **POO** 
-- **UML** <<<< You are here!
-- Arrays
-- Clases abstractas
-- Interfaces
+- **UML**
+- **Arrays**
+- **Clases abstractas**
+- Interfaces *<<<< You are here!*
 - Principios SOLID / SRP / OCP / LSP / ISP / DIP
 - Mapas (Hashmap / Treemap)
 - Genéricos
 - Archivos
-- **Git**
-- Framework **JavaFX**
+- Git
+- Framework JavaFX
 
 <h2>📖 Referencias o ejercicios</h2>
 
 <a href="https://exercism.org/tracks/java">Exercism.org</a>
-Guías de ejercicios de la facultad
+Guías de ejercicios de la facultad.
