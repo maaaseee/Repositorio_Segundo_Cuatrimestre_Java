@@ -8,7 +8,8 @@ public class main {
         cargarGimnasio(lionFitness);
         
         lionFitness.mostrarSueldos();
-        lionFitness.entrenadorConMasClientes();
+        System.out.println("---------------------------------------");
+        lionFitness.entrenadorConMasClientes().mostrarInfo();
     }
 
     public static void cargarGimnasio(Gimnasio gimnasio){

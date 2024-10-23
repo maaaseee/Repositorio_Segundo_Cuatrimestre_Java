@@ -17,7 +17,7 @@ public class IntegradorPolimorfismo {
     
     public static void cargarPersonajes(Cafeteria cafeteria){
         cafeteria.agregarPersonaje(new Heroe("Clark Kent", Editorial.DC, "Superman"));
-        cafeteria.agregarPersonaje(new Heroe("Peter Parker", Editorial.MARVEL, "Spiderman"));
+        cafeteria.agregarPersonaje(new Heroe("Peter Parker", Editorial.MARVEL, "Spider-man"));
         cafeteria.agregarPersonaje(new Villano("Norman Osborn", Editorial.MARVEL, "Duende Verde"));
         cafeteria.agregarPersonaje(new Villano("Jack Oswald White", Editorial.DC, "Joker"));
     }

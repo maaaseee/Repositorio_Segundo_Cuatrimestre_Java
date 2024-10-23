@@ -23,25 +23,26 @@ public class Gimnasio {
         entrenadores.add(trainer);
     }
     
-    public void entrenadorConMasClientes(){
-        PersonalTrainer trainerMasClientudo = null;
-        
+    public PersonalTrainer entrenadorConMasClientes(){
         if (entrenadores.isEmpty()) {
-            return;
+            return null;
         }
         
+        PersonalTrainer trainerEncontrado = buscarMayorQDeClientes();
+        
+        return trainerEncontrado != null ? trainerEncontrado : null;
+    }
+    
+    private PersonalTrainer buscarMayorQDeClientes(){
+        PersonalTrainer trainerMasClientudo = null;
+        
         for (Entrenador entrenador : entrenadores) {
-            if (entrenador instanceof PersonalTrainer perst){
-                if (trainerMasClientudo == null || perst.compareClientesQ(trainerMasClientudo)) {
-                    trainerMasClientudo = perst;
+            if (entrenador instanceof PersonalTrainer trainer){
+                if (trainerMasClientudo == null || trainer.compareClientesQ(trainerMasClientudo)) {
+                    trainerMasClientudo = trainer;
                 }
             }
         }
-        
-        if (trainerMasClientudo != null) {
-            trainerMasClientudo.mostrarInfo();
-        } else {
-            System.out.println("No hay Personal Trainers en este gimnasio.");
-        }
+        return trainerMasClientudo;
     }
 }

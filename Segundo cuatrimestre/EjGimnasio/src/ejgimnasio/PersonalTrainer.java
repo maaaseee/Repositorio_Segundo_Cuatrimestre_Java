@@ -5,9 +5,9 @@ public class PersonalTrainer extends Entrenador{
     private int cantidadClientes;
     private double montoPorCliente;
 
-    public PersonalTrainer(int legajo, String nombre, String apellido, int añoIngreso, 
+    public PersonalTrainer(int legajo, String nombre, String apellido, int yearIngreso, 
             int cantidadClientes, double montoPorCliente) {
-        super(legajo, nombre, apellido, añoIngreso);
+        super(legajo, nombre, apellido, yearIngreso);
         this.cantidadClientes = cantidadClientes;
         this.montoPorCliente = montoPorCliente;
     }
@@ -15,11 +15,7 @@ public class PersonalTrainer extends Entrenador{
     @Override
     public double getSueldo(){
         double montoTotal = montoPorCliente * cantidadClientes;
-        if (montoTotal < sueldoMin) {
-            return sueldoMin;
-        } else {
-            return montoTotal;
-        }
+        return montoTotal < sueldoMin ? sueldoMin:montoTotal;
     }
     
     @Override

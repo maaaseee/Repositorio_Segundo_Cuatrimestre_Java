@@ -1,11 +1,11 @@
 package integradorpolimorfismo;
 
 public abstract class Personaje {
-    private final String NOMBRE;
+    private String nombre;
     private Editorial editorial;
     
     public Personaje(String nombre, Editorial editorial){
-        this.NOMBRE = nombre;
+        this.nombre = nombre;
         this.editorial = editorial;
     }
     

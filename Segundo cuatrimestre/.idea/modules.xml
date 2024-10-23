@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CuentaRegresivaPares/CuentaRegresivaPares.iml" filepath="$PROJECT_DIR$/CuentaRegresivaPares/CuentaRegresivaPares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjGimnasio/EjGimnasio.iml" filepath="$PROJECT_DIR$/EjGimnasio/EjGimnasio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuíaHerencia/GuíaHerencia.iml" filepath="$PROJECT_DIR$/GuíaHerencia/GuíaHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HerenciaConcesionario/HerenciaConcesionario.iml" filepath="$PROJECT_DIR$/HerenciaConcesionario/HerenciaConcesionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InstanciacionVariables/InstanciacionVariables.iml" filepath="$PROJECT_DIR$/InstanciacionVariables/InstanciacionVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegradorHerencia/IntegradorHerencia.iml" filepath="$PROJECT_DIR$/IntegradorHerencia/IntegradorHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegradorListas/IntegradorListas.iml" filepath="$PROJECT_DIR$/IntegradorListas/IntegradorListas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegradorPolimorfismo/IntegradorPolimorfismo.iml" filepath="$PROJECT_DIR$/IntegradorPolimorfismo/IntegradorPolimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MoodlePremium/MoodlePremium.iml" filepath="$PROJECT_DIR$/MoodlePremium/MoodlePremium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POSNET/POSNET.iml" filepath="$PROJECT_DIR$/POSNET/POSNET.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Segundo cuatrimestre.iml" filepath="$PROJECT_DIR$/.idea/Segundo cuatrimestre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestTelevisor/TestTelevisor.iml" filepath="$PROJECT_DIR$/TestTelevisor/TestTelevisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testeo/Testeo.iml" filepath="$PROJECT_DIR$/Testeo/Testeo.iml" />
+    </modules>
+  </component>
+</project>

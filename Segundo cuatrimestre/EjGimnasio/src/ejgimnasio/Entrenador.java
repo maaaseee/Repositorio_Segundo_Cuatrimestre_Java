@@ -1,16 +1,18 @@
 package ejgimnasio;
 
+import java.time.LocalDate;
+
 public abstract class Entrenador {
     private int legajo;
     private String nombre;
     private String apellido;
-    private int añoIngreso;
+    private int yearIngreso;
 
-    public Entrenador(int legajo, String nombre, String apellido, int añoIngreso) {
+    public Entrenador(int legajo, String nombre, String apellido, int yearIngreso) {
         this.legajo = legajo;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.añoIngreso = añoIngreso;
+        this.yearIngreso = yearIngreso;
     }
     
     public abstract double getSueldo();
@@ -18,10 +20,10 @@ public abstract class Entrenador {
     public abstract void mostrarInfo();
     
     protected int getAntiguedad(){
-        return this.añoIngreso;
+        return LocalDate.now().getYear() - this.yearIngreso;
     }
     
     protected String getNombre(){
-        return this.nombre;
+        return this.nombre + " " + this.apellido;
     }
 }

@@ -19,7 +19,7 @@
 - **UML**
 - **Arrays**
 - **Clases abstractas**
-- Interfaces *<<<< You are here!*
+- **Interfaces** 
 - Principios SOLID / SRP / OCP / LSP / ISP / DIP
 - Mapas (Hashmap / Treemap)
 - Genéricos
