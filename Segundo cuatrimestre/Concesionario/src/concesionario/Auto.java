@@ -1,5 +1,7 @@
 package concesionario;
 
+import java.util.Objects;
+
 public class Auto {
 
     private String patente;
@@ -24,9 +26,14 @@ public class Auto {
             return str.equals(patente);
         }
         if (o instanceof Auto a) {
-            return patente.equals(a.patente);
+            return patente.equals(a.patente) && marca.equals(a.marca);
         }
         return false;
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(patente, marca);
     }
 
     @Override

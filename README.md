@@ -20,12 +20,11 @@
 - **Arrays**
 - **Clases abstractas**
 - **Interfaces** 
-- Principios SOLID / SRP / OCP / LSP / ISP / DIP
-- Mapas (Hashmap / Treemap)
-- Genéricos
-- Archivos
-- Git
-- Framework JavaFX
+- **Genéricos**
+- **Wildcards**
+- **Archivos**
+- **Interfaces funcionales**
+- **Lambda**
 
 <h2>📖 Referencias o ejercicios</h2>
 
